@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-20T16:30:06 IST" name="Test Suite for Login and Logout from Demo app" finished-at="2024-01-20T16:31:47 IST" duration-ms="100707">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTestNG@61322f9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-20T16:30:06 IST" name="TestCycle3" finished-at="2024-01-20T16:31:47 IST" duration-ms="100707">
+      <class name="tests.ViewSavingsTest">
+        <test-method signature="clicksigin()[pri:1, instance:tests.ViewSavingsTest@77f1baf5]" started-at="2024-01-20T16:31:08 IST" name="clicksigin" finished-at="2024-01-20T16:31:44 IST" duration-ms="35878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksigin -->
+        <test-method signature="clcikingMenuIcon()[pri:2, instance:tests.ViewSavingsTest@77f1baf5]" started-at="2024-01-20T16:31:44 IST" name="clcikingMenuIcon" finished-at="2024-01-20T16:31:44 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clcikingMenuIcon -->
+        <test-method signature="clickingsavings()[pri:3, instance:tests.ViewSavingsTest@77f1baf5]" started-at="2024-01-20T16:31:44 IST" name="clickingsavings" finished-at="2024-01-20T16:31:44 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingsavings -->
+        <test-method signature="navigationofsavings()[pri:4, instance:tests.ViewSavingsTest@77f1baf5]" started-at="2024-01-20T16:31:44 IST" name="navigationofsavings" finished-at="2024-01-20T16:31:47 IST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationofsavings -->
+        <test-method signature="serachtranscations()[pri:5, instance:tests.ViewSavingsTest@77f1baf5]" started-at="2024-01-20T16:31:47 IST" name="serachtranscations" finished-at="2024-01-20T16:31:47 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachtranscations -->
+      </class> <!-- tests.ViewSavingsTest -->
+      <class name="runner.RunnerTestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerTestNG@61322f9d]" started-at="2024-01-20T16:30:06 IST" name="setUpClass" finished-at="2024-01-20T16:30:10 IST" duration-ms="3294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5bb7a59]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerTestNG@61322f9d]" started-at="2024-01-20T16:30:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-20T16:31:01 IST" duration-ms="50750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to if login is succesful or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing banking website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerTestNG@61322f9d]" started-at="2024-01-20T16:31:01 IST" name="tearDownClass" finished-at="2024-01-20T16:31:08 IST" duration-ms="7076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerTestNG -->
+    </test> <!-- TestCycle3 -->
+  </suite> <!-- Test Suite for Login and Logout from Demo app -->
+</testng-results>
